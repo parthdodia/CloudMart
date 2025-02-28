@@ -39,7 +39,7 @@ const ProductCard = ({ product, onAddToCart }) => {
         </h3>
       </div>
       <div>
-        <p className="text-gray-600">${product.price.toFixed(2)}</p>
+        <p className="text-gray-500">${product.price.toFixed(2)}</p>
         <button
           onClick={() => onAddToCart(product)}
           className="mt-2 bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition-colors w-full"
